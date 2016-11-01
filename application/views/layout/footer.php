@@ -15,9 +15,9 @@
             <div class="col-md-12">
                 <h1>Contact</h1>
             </div>
-            <div class="col-md-3 col-md-offset-1 col-xs-12">
-                <p class="col-md-12">Retrouvez-moi sur...</p>
-                <ul class="social-icon col-md-12 col-xs-12">
+            <div class="col-md-4 col-xs-12">
+                <p class="col-md-9 col-md-offset-3">Retrouvez-moi sur...</p>
+                <ul class="social-icon col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1">
                     <li>
                         <a class="btn btn-social-icon btn-lg" href="https://fr.linkedin.com/pub/olivier-marin/a6/706/328">
                             <i class="fa fa-linkedin"></i>
@@ -31,6 +31,11 @@
                     <li>
                         <a class="btn btn-social-icon btn-lg" href="https://twitter.com/olivierMARNI">
                             <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-social-icon btn-lg" href="http://www.viadeo.com/p/002us3iiv4l4hrz/edit">
+                            <i class="fa fa-viadeo" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>

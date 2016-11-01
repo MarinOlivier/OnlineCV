@@ -18,6 +18,18 @@ span.underline {
     margin-bottom: 40px;
 }
 
+span.blueBox {
+    background-color: #0086b3;
+    color: white;
+    padding: 0 4px 1px;
+    text-align:center;
+    border-radius: 3px;
+}
+
+.col-md-5.comp {
+    padding: 0;
+}
+
 .btn-perso {
     background-image: -webkit-linear-gradient(top, #182357 0%, #182357 100%);
     background-image: -o-linear-gradient(top, #182357 0%, #182357 100%);

@@ -16,23 +16,29 @@
         <div class="col-md-4 col-md-offset-1" style="text-align: center;">
             <img itemprop="image" width="200px" height="200px" id="pic_my" src="<?php echo img_url('moi.png') ?>">
         </div>
-        <div class="col-md-offset-0 col-md-5">
+        <div class="col-md-offset-0 col-md-6">
             <div id="aboutMe" class="col-md-12">
                 <h2 itemprop="name">Olivier Marin</h2>
-                <h3>22 ans</h3>
+                <h3>23 ans</h3>
                 <h4>Région <b>PACA</b></h4>
-                <div style="background-color: #0086b3; color: white; padding: 3px; width: 70px; text-align:center">
-                    &Eacutetudiant
+                <div style="background-color: #0086b3; color: white; padding: 3px; width: 210px; text-align:center">
+                    &Eacutetudiant en recherche de stage
                 </div>
                 <h5 style="margin-bottom: 0; margin-top: 15px">Qui suis-je ?</h5>
                 <p style="margin-top: 5px">
-                    &Eacutelève ingénieur et passionné de nouvelles technologies.</br>
-                    Je suis animé par un intense esprit de découverte et d'innovation.
+                    &Eacutelève ingénieur en informatique spécialisé dans les Systèmes Informatique Critiques et leurs Applications.</br>
+                    J'aime particulièrement les métiers touchant à la cyberdéfense et à la sécurité informatique.
+                    De plus, je suis animé par un intense esprit de découverte et d'innovation.</br>
                 </p>
                 <h5 style="margin-bottom: 0">Actuellement</h5>
                 <p style="margin-top: 5px">
-                    En recherche active de stage pour l'été 2016, entre juin et août, pour une durée minimale de 2 mois.
-                    Les secteurs visés sont : les réseaux, la sécurité, et les systèmes embarqué.
+                    En recherche active de stage de fin d'étude, à partir du moi de Février, pour une durée minimale de 6 mois.
+                    Les secteurs visés sont :</br></br>
+                    <span class="blueBox">réseaux</span>
+                    <span class="blueBox">sécurité</span>
+                    <span class="blueBox">systèmes</span>
+                    <span class="blueBox">embarqué</span>
+                    <span class="blueBox">défense</span>
                 </p>
             </div>
         </div>
@@ -59,6 +65,19 @@
             <ul class="list-unstyled">
                 <li class="year">
                     20
+                    <span>16</span>
+                </li>
+                <li>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h1>EMTS</h1> <span style="margin-left: 10px"><a style="display: inline-block" href="http://emts-environment.com/"> Site officiel </a></span>
+                            <h2><span class="label label-default">Stage</span></h2>
+                            <p>Chargé de la mise au normes de sécurité du système d'infrmation de l'entreprise.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="year">
+                    20
                     <span>15</span>
                 </li>
                 <li>
@@ -83,7 +102,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="year">
+                <!--<li class="year">
                     20
                     <span>13</span>
                 </li>
@@ -95,7 +114,7 @@
                             <p><b>Maintenance</b> de rayons & <b>Conseil</b> clientelle</p>
                         </li>
                     </ul>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
@@ -112,7 +131,7 @@
             </div>
             <div class="text_diplome">
                 <p class="title_diplome">&Eacutecole d'ingénieur <a href="http://polytech.univ-amu.fr/formations/cycle-ingenieur/informatique-reseau-multimedia">Polytech' Marseille</a></p>
-                <p class="content_diplome">Section Informatique</p>
+                <p class="content_diplome">Section Informatique</br>Option Systèmes Informatiques Critiques et Applications</p>
             </div>
 
             <div class="year col-md-12">
@@ -148,108 +167,7 @@
         <h1 class="">Compétences</h1>
     </div>
 
-    <div class="col-md-4 comp_title">
-        <h3>Développement web</h3>
-        <span class="col-md-6 col-xs-6 underline"></span>
-        <div class="col-md-12"></div>
-
-        <div class="col-md-5 col-xs-12 comp">
-            <h4 class="col-md-12">HTML/CSS</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
-            <h4 class="col-md-12">PHP/SQL</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="nop col-md-12 col-xs-0"></div>
-        <div class="nop col-md-12 col-xs-0"></div>
-
-        <div class="col-md-5 col-xs-12 comp">
-            <h4 class="col-md-12">JavaScript</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-
-        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
-            <h4 class="col-md-12">Symfony 2</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="nop col-md-12 col-xs-0"></div>
-        <div class="nop col-md-12 col-xs-0"></div>
-
-        <div class="col-md-5 col-xs-12 comp">
-            <h4 class="col-md-12">CodeIgniter</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
-            <h4 class="col-md-12">Bootstrap 2</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="nop col-md-12 col-xs-0"></div>
-        <div class="nop col-md-12 col-xs-0"></div>
-
-        <div class="col-md-5 col-xs-12 comp">
-            <h4 class="col-md-12">JQuery</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-    </div>
-
-    <div class="col-md-4 col-xs-12 comp_title">
+    <!--<div class="col-md-4 col-xs-12 comp_title">
         <h3>Développement logiciel</h3>
         <span class="col-md-6 col-xs-6 underline"></span>
         <div class="col-md-12"></div>
@@ -292,6 +210,112 @@
             <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
 
         </div>
+    </div>-->
+
+    <div class="col-md-4 col-xs-12 comp_title">
+        <h3>Domaines de compétences</h3>
+        <span class="col-md-6 col-xs-6 underline"></span>
+        <div class="col-md-12"></div>
+
+        <div class="col-md-5  col-xs-12 comp">
+            <h4 class="col-md-12">Sécurité des SI</h4>
+        </div>
+
+        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
+            <h4 class="col-md-12">Réseaux</h4>
+        </div>
+
+        <div class="nop col-md-12 col-xs-0"></div>
+        <div class="nop col-md-12 col-xs-0"></div>
+
+        <div class="col-md-5  col-xs-12 comp">
+            <h4 class="col-md-12">Algorithmique</h4>
+        </div>
+
+        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
+            <h4 class="col-md-12">Hacking</h4>
+        </div>
+
+        <div class="nop col-md-12 col-xs-0"></div>
+        <div class="nop col-md-12 col-xs-0"></div>
+
+        <div class="col-md-5  col-xs-12 comp">
+            <h4 class="col-md-12">Programmation</h4>
+        </div>
+    </div>
+
+    <div class="col-md-4 comp_title">
+        <h3>Langages</h3>
+        <span class="col-md-6 col-xs-6 underline"></span>
+        <div class="col-md-12"></div>
+
+        <div class="col-md-5 col-xs-12 comp">
+            <h4 class="col-md-12">C/C++</h4>
+
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+
+        </div>
+
+        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
+            <h4 class="col-md-12">PHP/JS</h4>
+
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+
+        </div>
+
+        <div class="nop col-md-12 col-xs-0"></div>
+        <div class="nop col-md-12 col-xs-0"></div>
+
+        <div class="col-md-5 col-xs-12 comp">
+            <h4 class="col-md-12">Python</h4>
+
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+
+        </div>
+
+
+        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
+            <h4 class="col-md-12">Java</h4>
+
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+
+        </div>
+
+        <div class="nop col-md-12 col-xs-0"></div>
+        <div class="nop col-md-12 col-xs-0"></div>
+
+        <div class="col-md-5 col-xs-12 comp">
+            <h4 class="col-md-12">Shell</h4>
+
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
+
+        </div>
+
     </div>
 
     <div class="col-md-4 comp_title">
@@ -346,33 +370,6 @@
             <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
             <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
             <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="nop col-md-12"></div>
-        <div class="nop col-md-12"></div>
-
-        <div class="col-md-5 col-xs-12 comp">
-            <h4 class="col-md-12">PhotoShop</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-
-        </div>
-
-        <div class="col-md-5 col-md-offset-1 col-xs-12 comp">
-            <h4 class="col-md-12">Illustrator</h4>
-
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_full.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
-            <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
             <img class="col-md-2 col-xs-2 comp" src="<?php echo img_url('comp_empty.png') ?>">
 
         </div>

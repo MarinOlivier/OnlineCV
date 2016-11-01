@@ -32,6 +32,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo(css_url('bootstrap')) ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo(css_url('bootstrap-social')) ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo(css_url('bootstrap-theme')) ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo(css_url('font-awesome.min')) ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo(css_url('style')) ?>">
 
 </head>
